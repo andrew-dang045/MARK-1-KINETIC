@@ -1,10 +1,10 @@
 <div align="center">
 
-# MARK I: KINETIC
+# KINETIC: MARK I (Mk.I)
 
 ### *The first presentation controller you wear, not hold.*
 
-**Presenters lose the room every time they look down. We fixed that.**
+**Presenters lose their flow every time they look down. We fixed that.**
 
 [![ESP32](https://img.shields.io/badge/ESP32-WROOM--32E-blue?style=flat-square&logo=espressif)](https://www.espressif.com/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
