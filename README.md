@@ -218,8 +218,8 @@ ACTIONS = {
 
 | Action | Result |
 |---|---|
-| Hold enable (GPIO 18) ≥ 300ms | Mouse movement active |
-| Double-click enable (each press < 280ms) | Left mouse button |
+| Hold enable (GPIO 18) ≥ 200ms | Mouse movement active |
+| Double-click enable (each press < 180ms) | Left mouse button |
 | Hold enable + swipe wrist | Left / Right arrow key |
 | Hold letter button (GPIO 4) | 2-second gesture recording |
 | Hold zoom button (GPIO 19) + move magnet | Ctrl + Scroll zoom |
@@ -277,6 +277,17 @@ Consistency matters more than the specific motion — train and use the same ges
 - **Inference:** Modal cloud GPU (T4), confidence threshold gate at 65%
 
 ---
+
+## Credits & Acknowledgments
+
+This project stands on the shoulders of several open-source implementations and algorithmic foundations:
+
+* **BLE Mouse Implementation:** Core Bluetooth HID logic and mouse movement structures were adapted from [takeyamayuki's GyroMouseBLE](https://github.com/takeyamayuki/GyroMouseBLE).
+* **Signal Processing:**
+    * **Kalman Filter:** Implemented based on the [KalmanFilter library](https://github.com/denyssene/SimpleKalmanFilter) for smoothing MPU6050 accelerometer and gyroscope data.
+    * **EMA Filter:** Exponential Moving Average logic used for low-latency jitter reduction in mouse cursor tracking.
+* **Machine Learning:** Architecture inspired by common LSTM-based gesture recognition patterns used in wearable IMU research.
+* **Special Thanks:** Built during **RevUC Hackathon** at the University of Cincinnati.
 
 <div align="center">
 
