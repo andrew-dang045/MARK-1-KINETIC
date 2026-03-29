@@ -1,6 +1,6 @@
 <div align="center">
 
-# KINETIC: MARK I (Mk.I)
+# MARK I: KINETIC
 
 ### *The first presentation controller you wear, not hold.*
 
@@ -173,7 +173,7 @@ Connect the ESP32 via **USB** for data collection. Watch the live 6-axis wavefor
 SERIAL_PORT          = 'COM10'
 RECORDING_DURATION_S = 2.2       # must match LETTER_RECORDING_DURATION in firmware
 letters              = ['C', 'P', 'I']
-samples_per          = 7
+samples_per          = 7 (More Samples More Accurate)
 ```
 
 ### 4. Train the model
@@ -208,7 +208,7 @@ Add or edit letter → action mappings:
 ACTIONS = {
     'C': lambda: webbrowser.open("http://google.com"),
     'P': lambda: os.system("start powerpnt"),
-    'L': lambda: webbrowser.open("https://linkedin.com"),
+    'I': lambda: os.system("start outlook"),
 }
 ```
 
@@ -248,7 +248,7 @@ The MPU6050 measures **angular velocity** — how fast your wrist rotates — no
 |---|---|
 | `C` | Wide outward arc, then back |
 | `P` | Sharp downward flick, then outward bump |
-| `L` | Down sharply, then flat to the side |
+| `I` | Down sharply and stay at one point |
 
 Consistency matters more than the specific motion — train and use the same gesture every time.
 
@@ -287,12 +287,12 @@ This project stands on the shoulders of several open-source implementations and 
     * **Kalman Filter:** Implemented based on the [KalmanFilter library](https://github.com/denyssene/SimpleKalmanFilter) for smoothing MPU6050 accelerometer and gyroscope data.
     * **EMA Filter:** Exponential Moving Average logic used for low-latency jitter reduction in mouse cursor tracking.
 * **Machine Learning:** Architecture inspired by common LSTM-based gesture recognition patterns used in wearable IMU research. (https://archive.ics.uci.edu/dataset/59/letter+recognition)
-* **Special Thanks:** Built during **RevUC Hackathon** at the University of Cincinnati.
+* **Special Thanks:** Built during **RevolutionUC 2026 Hackathon** at the 1819 Innovation Hub.
 
 <div align="center">
 
 *"Designed for the few. Built for everyone."*
 
-**MARK I: KINETIC — RevUC Hackathon**
+**MARK I: KINETIC — RevolutionUC 2026 Hackathon**
 
 </div>
