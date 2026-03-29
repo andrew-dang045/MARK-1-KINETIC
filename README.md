@@ -18,6 +18,17 @@
 
 ---
 
+## 👥 The Team
+
+Kinetic was conceptualized and built in 24 hours by:
+
+* **Harry Nguyen** – Embedded and Machine Learning Developer.
+* **Andrew Dang** – Embedded and System Integration.
+* **Huy Le** – CAD and Hardware Prototyping.
+* **Chi Nguyen** –  Operations Management and Business Analysis.
+
+---
+
 ## What is Kinetic?
 
 Kinetic is a **wearable gesture-control glove** that gives presenters full control of their slides, cursor, and applications — without touching a laptop or holding a clicker.
