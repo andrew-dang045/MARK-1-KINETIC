@@ -1,0 +1,8 @@
+pyserial
+numpy
+matplotlib
+tensorflow
+scikit-learn
+scipy
+modal
+bleak
