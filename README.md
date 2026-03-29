@@ -286,7 +286,7 @@ This project stands on the shoulders of several open-source implementations and 
 * **Signal Processing:**
     * **Kalman Filter:** Implemented based on the [KalmanFilter library](https://github.com/denyssene/SimpleKalmanFilter) for smoothing MPU6050 accelerometer and gyroscope data.
     * **EMA Filter:** Exponential Moving Average logic used for low-latency jitter reduction in mouse cursor tracking.
-* **Machine Learning:** Architecture inspired by common LSTM-based gesture recognition patterns used in wearable IMU research.
+* **Machine Learning:** Architecture inspired by common LSTM-based gesture recognition patterns used in wearable IMU research. (https://archive.ics.uci.edu/dataset/59/letter+recognition)
 * **Special Thanks:** Built during **RevUC Hackathon** at the University of Cincinnati.
 
 <div align="center">
