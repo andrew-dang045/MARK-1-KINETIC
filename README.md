@@ -20,7 +20,7 @@
 
 ## 👥 The Team
 
-Kinetic was conceptualized and built in 24 hours by:
+Mark I: Kinetic was conceptualized and built in 24 hours by:
 
 * **Harry Nguyen** – Embedded and Machine Learning Developer.
 * **Andrew Dang** – Embedded and System Integration.
